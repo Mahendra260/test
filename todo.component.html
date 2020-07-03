@@ -1,0 +1,2 @@
+<h1>A Todo App...</h1>
+<app-todo-item *ngFor="let todo of todolist" [todoitem]="todo" (deleteTodo)="delete($event)"></app-todo-item>
